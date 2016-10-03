@@ -1,5 +1,5 @@
 {
-    "name": "bajke/Omnimed",
+    "name": "bajke/omnimed",
     "type": "library",
     "description": "Omnimed API wrapper for Laravel",
     "keywords": [
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "bajke\\Omnimed\\": "packages/bajke/Omnimed/src"
+            "bajke\\omnimed\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "bajke\\Omnimed\\": "tests"
+            "bajke\\omnimed\\": "tests"
         }
     },
     "scripts": {
